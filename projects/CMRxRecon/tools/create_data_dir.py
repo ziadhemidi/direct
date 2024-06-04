@@ -150,43 +150,43 @@ def main():
         logger.error(f"Data path '{data_path}' does not exist.")
         exit(1)
 
-    if not training_set_path.exists():
-        logger.error(f"Training set path '{training_set_path}' does not exist.")
-        exit(1)
+    # if not training_set_path.exists():
+    #     logger.error(f"Training set path '{training_set_path}' does not exist.")
+    #     exit(1)
 
-    if not full_sample_path.exists():
-        logger.error(f"Training fully sampled data path '{full_sample_path}' does not exist.")
-        exit(1)
+    # if not full_sample_path.exists():
+    #     logger.error(f"Training fully sampled data path '{full_sample_path}' does not exist.")
+    #     exit(1)
 
-    if args.create_training_data_with_masks:
-        # Create fully sampled data with masks
-        logger.info(f"Creating training fully sampled data with masks. Saving at {full_sample_path}.")
-        create_data_with_masks(training_set_path, full_sample_with_masks_path)
+    # if args.create_training_data_with_masks:
+    #     # Create fully sampled data with masks
+    #     logger.info(f"Creating training fully sampled data with masks. Saving at {full_sample_path}.")
+    #     create_data_with_masks(training_set_path, full_sample_with_masks_path)
 
-    # Create symlinks for training. All data need to be in one directory.
-    create_symlinks(full_sample_path, training_symbolic_path)
-    create_symlinks(full_sample_with_masks_path, training_symbolic_path, "with_masks_")
+    # # Create symlinks for training. All data need to be in one directory.
+    # create_symlinks(full_sample_path, training_symbolic_path)
+    # create_symlinks(full_sample_with_masks_path, training_symbolic_path, "with_masks_")
 
-    # Create symlinks for validation and testing
-    validation_set_path = data_path / "ValidationSet"
-    validation_symbolic_path = args.target_path / "MultiCoil" / "validation"
-    validation_full_sample_path = validation_set_path / "FullSample"
+    # # Create symlinks for validation and testing
+    # validation_set_path = data_path / "ValidationSet"
+    # validation_symbolic_path = args.target_path / "MultiCoil" / "validation"
+    # validation_full_sample_path = validation_set_path / "FullSample"
 
     test_set_path = data_path / "TestSet"
     test_symbolic_path = args.target_path / "MultiCoil" / "test"
     test_full_sample_path = test_set_path / "FullSample"
 
-    # Check if the required directories exist
-    if not validation_set_path.exists():
-        logger.error(f"Validation set path '{validation_set_path}' does not exist.")
-        exit(1)
+    # # Check if the required directories exist
+    # if not validation_set_path.exists():
+    #     logger.error(f"Validation set path '{validation_set_path}' does not exist.")
+    #     exit(1)
 
-    if not validation_full_sample_path.exists():
-        logger.warning(f"Validation full sample path '{validation_full_sample_path}' does not exist. Skipping...")
-    else:
-        logger.info(f"")
-        # Create symlinks for fully sampled validation data. All data need to be in one directory.
-        create_symlinks(validation_full_sample_path, validation_symbolic_path)
+    # if not validation_full_sample_path.exists():
+    #     logger.warning(f"Validation full sample path '{validation_full_sample_path}' does not exist. Skipping...")
+    # else:
+    #     logger.info(f"")
+    #     # Create symlinks for fully sampled validation data. All data need to be in one directory.
+    #     create_symlinks(validation_full_sample_path, validation_symbolic_path)
 
     # Check if the required test directory exist
     if not test_set_path.exists():
@@ -200,15 +200,15 @@ def main():
         create_symlinks(test_full_sample_path, test_symbolic_path)
 
     for acceleration in ACCELERATIONS:
-        validation_acceleration_path = validation_set_path / f"AccFactor{acceleration}"
-        if validation_acceleration_path.exists():
-            logger.info(
-                f"Creating symbolic paths for {validation_acceleration_path} "
-                f"at {validation_symbolic_path / f'AccFactor{acceleration}'}..."
-            )
-            create_symlinks(validation_acceleration_path, validation_symbolic_path / f"AccFactor{acceleration}")
-        else:
-            logger.info(f"Path {validation_acceleration_path} does not exist. Skipping...")
+        # validation_acceleration_path = validation_set_path / f"AccFactor{acceleration}"
+        # if validation_acceleration_path.exists():
+        #     logger.info(
+        #         f"Creating symbolic paths for {validation_acceleration_path} "
+        #         f"at {validation_symbolic_path / f'AccFactor{acceleration}'}..."
+        #     )
+        #     create_symlinks(validation_acceleration_path, validation_symbolic_path / f"AccFactor{acceleration}")
+        # else:
+        #     logger.info(f"Path {validation_acceleration_path} does not exist. Skipping...")
 
         test_acceleration_path = test_set_path / f"AccFactor{acceleration}"
         if test_acceleration_path.exists():

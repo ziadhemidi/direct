@@ -18,7 +18,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -38,7 +39,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -58,7 +60,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -78,7 +81,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -98,7 +102,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -118,7 +123,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -138,7 +144,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -158,7 +165,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -178,7 +186,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -198,7 +207,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -218,7 +228,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -238,7 +249,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -258,7 +270,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -278,7 +291,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -298,7 +312,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -318,7 +333,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -338,7 +354,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -358,7 +375,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -378,7 +396,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -398,7 +417,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -418,7 +438,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking: null
                 scale_percentile: 0.99
                 use_seed: false
@@ -436,7 +457,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianMagic
                     accelerations:
@@ -473,7 +495,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianMagic
                     accelerations:
@@ -516,7 +539,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianRandom
                     accelerations:
@@ -557,7 +581,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianRandom
                     accelerations:
@@ -600,7 +625,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Radial
                     accelerations:
@@ -629,7 +655,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Radial
                     accelerations:
@@ -660,7 +687,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Spiral
                     accelerations:
@@ -689,7 +717,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Spiral
                     accelerations:
@@ -720,7 +749,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Gaussian2D
                     accelerations:
@@ -759,7 +789,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Gaussian2D
                     accelerations:
@@ -802,7 +833,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianMagic
                     accelerations:
@@ -845,7 +877,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianMagic
                     accelerations:
@@ -888,7 +921,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianMagic
                     accelerations:
@@ -931,7 +965,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianMagic
                     accelerations:
@@ -974,7 +1009,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianMagic
                     accelerations:
@@ -1017,7 +1053,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianRandom
                     accelerations:
@@ -1060,7 +1097,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianRandom
                     accelerations:
@@ -1103,7 +1141,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianRandom
                     accelerations:
@@ -1146,7 +1185,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianRandom
                     accelerations:
@@ -1189,7 +1229,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: CartesianRandom
                     accelerations:
@@ -1232,7 +1273,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Radial
                     accelerations:
@@ -1259,7 +1301,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Radial
                     accelerations:
@@ -1286,7 +1329,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Radial
                     accelerations:
@@ -1313,7 +1357,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Radial
                     accelerations:
@@ -1340,7 +1385,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Radial
                     accelerations:
@@ -1367,7 +1413,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Spiral
                     accelerations:
@@ -1394,7 +1441,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Spiral
                     accelerations:
@@ -1421,7 +1469,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Spiral
                     accelerations:
@@ -1448,7 +1497,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Spiral
                     accelerations:
@@ -1475,7 +1525,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Spiral
                     accelerations:
@@ -1502,7 +1553,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Gaussian2D
                     accelerations:
@@ -1537,7 +1589,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Gaussian2D
                     accelerations:
@@ -1572,7 +1625,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Gaussian2D
                     accelerations:
@@ -1607,7 +1661,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Gaussian2D
                     accelerations:
@@ -1642,7 +1697,8 @@ training:
                 estimate_sensitivity_maps: true
                 scaling_key: masked_kspace
                 image_center_crop: false
-                random_flip_probability: 0.5
+                random_flip: true
+                random_rotation: false
                 masking:
                     name: Gaussian2D
                     accelerations:
@@ -1695,7 +1751,7 @@ training:
                 function: kspace_nmae_loss
                 multiplier: 3
     checkpointer:
-        checkpoint_steps: 1000
+        checkpoint_steps: 100
 validation:
     datasets:
         -
@@ -1741,6 +1797,7 @@ validation:
     metrics:
         - fastmri_ssim
         - fastmri_psnr
+
 model:
     model_name: vsharp.vsharp.VSharpNet3D
     num_steps: 10
@@ -1774,12 +1831,12 @@ logging:
     tensorboard:
         num_images: 4
 inference:
-    batch_size: 1
+    batch_size: 8
     dataset:
         name: CMRxRecon
-        kspace_key: kspace_sub04
-        compute_mask: true
         kspace_context: time
+        kspace_key: kspace_sub08
+        compute_mask: true
         transforms:
             cropping:
                 crop: null
@@ -1789,5 +1846,5 @@ inference:
                 scaling_key: masked_kspace
                 scale_percentile: 0.99
             masking: null
-        text_description: inference-4x
+        text_description: inference-8x
     crop: null
