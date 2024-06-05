@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import bisect
 import contextlib
+import inspect
 import logging
 import pathlib
 import sys
@@ -1406,6 +1407,10 @@ def build_dataset(
     logger.info("Building dataset for: %s", name)
     dataset_class: Callable = str_to_class("direct.data.datasets", name + "Dataset")
     logger.debug("Dataset class: %s", dataset_class)
+    # remove the regex_filter key if it is not present in the dataset class
+    if "regex_filter" not in inspect.signature(dataset_class).parameters:
+        print(f"Available parameters: {inspect.signature(dataset_class).parameters}")
+        kwargs.pop("regex_filter")
     dataset = dataset_class(transform=transforms, **kwargs)
 
     logger.debug("Dataset: %s", str(dataset))

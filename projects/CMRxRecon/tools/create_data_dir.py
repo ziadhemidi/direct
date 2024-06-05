@@ -3,7 +3,8 @@ import logging
 import pathlib
 from argparse import RawTextHelpFormatter
 
-from create_data_with_masks import ACCELERATIONS, create_data_with_masks
+from create_data_with_masks import ACCELERATIONS #
+# create_data_with_masks
 from create_symlinks import create_symlinks
 
 # Define the available options for the 'data_type' argument
@@ -138,12 +139,12 @@ def main():
 
     # Construct the paths for data processing and symlink creation
     data_path = args.base_path / "MultiCoil" / args.data_type
-    training_set_path = data_path / "TrainingSet"
+    #training_set_path = data_path / "TrainingSet"
 
-    full_sample_path = training_set_path / "FullSample"
-    full_sample_with_masks_path = training_set_path / "FullSampleWithMasks"
+    # full_sample_path = training_set_path / "FullSample"
+    # full_sample_with_masks_path = training_set_path / "FullSampleWithMasks"
 
-    training_symbolic_path = args.target_path / "MultiCoil" / "training"
+    # training_symbolic_path = args.target_path / "MultiCoil" / "training"
 
     # Check if the required directories exist
     if not data_path.exists():
